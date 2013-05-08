@@ -1,4 +1,4 @@
-base_application
-================
+BaseApplication
+======
 
-Base rails app
+My prefered base rails app.
