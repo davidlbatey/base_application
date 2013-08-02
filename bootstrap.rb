@@ -1,4 +1,14 @@
 #! ruby
+#
+# Usage
+# bundle exec ruby bootstrap.rb NewApp
+# Where NewApp is the name for your new rails application
+#
+# Script:
+# - updates the app name throughout the application
+# - removes origin reference
+# - sets a new secret
+# - sets a new session store key
 
 class NewApp
 
