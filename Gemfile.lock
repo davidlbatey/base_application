@@ -28,7 +28,7 @@ GEM
     arel (4.0.0)
     atomic (1.1.10)
     awesome_print (1.1.0)
-    bcrypt-ruby (3.0.1)
+    bcrypt-ruby (3.1.1)
     builder (3.1.4)
     chunky_png (1.2.8)
     coffee-rails (4.0.0)
@@ -51,10 +51,11 @@ GEM
       debugger-ruby_core_source (~> 1.2.0)
     debugger-linecache (1.2.0)
     debugger-ruby_core_source (1.2.0)
-    devise (1.5.4)
+    devise (3.0.1)
       bcrypt-ruby (~> 3.0)
-      orm_adapter (~> 0.0.3)
-      warden (~> 1.1)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      warden (~> 1.2.3)
     diff-lcs (1.2.4)
     draper (1.2.0)
       actionpack (>= 3.0)
@@ -90,7 +91,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.7.7)
     mysql2 (0.3.11)
-    orm_adapter (0.0.7)
+    orm_adapter (0.4.0)
     polyglot (0.3.3)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
@@ -163,7 +164,7 @@ GEM
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
-    warden (1.2.1)
+    warden (1.2.3)
       rack (>= 1.0)
 
 PLATFORMS
@@ -174,7 +175,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0.beta1)
   compass-rails
   debugger
-  devise
+  devise (~> 3.0.1)
   draper
   haml
   haml-rails

@@ -18,7 +18,7 @@ gem 'compass-rails'
 gem 'mysql2'
 
 # security
-gem 'devise'
+gem "devise", "~> 3.0.1"
 
 group :development do
   gem 'haml-rails'
