@@ -11,7 +11,7 @@ gem 'haml'
 # javascript
 gem 'jquery-rails'
 
-# Stylesheets
+# stylesheets
 gem 'compass-rails'
 
 # databases
