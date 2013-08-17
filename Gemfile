@@ -44,4 +44,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :production do
+  gem 'rack-google-analytics', :require => 'rack/google-analytics'
+end
+
 gem 'unicorn'

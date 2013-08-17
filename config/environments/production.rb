@@ -77,4 +77,7 @@ BaseApplication::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  #Set the google analytics account
+  config.middleware.use Rack::GoogleAnalytics, :tracker => ''
 end
